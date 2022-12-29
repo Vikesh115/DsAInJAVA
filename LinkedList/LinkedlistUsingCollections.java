@@ -17,7 +17,7 @@ public class LinkedlistUsingCollections {
         System.out.println(list);
 
         System.out.println(list.size());
-
+     
         for (int i = 0; i < list.size(); i++) {
             System.out.print(list.get(i) + " -> ");
         }
@@ -26,7 +26,7 @@ public class LinkedlistUsingCollections {
         list.removeFirst();
         System.out.println(list);
 
-        list.removeLast();
+       // list.removeLast();
         System.out.println(list);
 
         list.remove(1);
