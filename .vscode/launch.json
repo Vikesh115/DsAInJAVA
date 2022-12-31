@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch isPalindrome",
+            "request": "launch",
+            "mainClass": "LinkedList.isPalindrome",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch linkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.linkedList",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoventhNode",
+            "request": "launch",
+            "mainClass": "LinkedList.RemoventhNode",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindnthNode",
+            "request": "launch",
+            "mainClass": "LinkedList.FindnthNode",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateArray",
+            "request": "launch",
+            "mainClass": "Array.DuplicateArray",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxMin",
+            "request": "launch",
+            "mainClass": "Array.MaxMin",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSubarraySum",
+            "request": "launch",
+            "mainClass": "Array.MaxSubarraySum",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MissingNumber",
+            "request": "launch",
+            "mainClass": "Array.MissingNumber",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatingElement",
+            "request": "launch",
+            "mainClass": "Array.RepeatingElement",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "Array.ReverseArray",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInRotatedArray",
+            "request": "launch",
+            "mainClass": "Array.SearchInRotatedArray",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedlistUsingCollections",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedlistUsingCollections",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operations",
+            "request": "launch",
+            "mainClass": "LinkedList.Operations",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        }
+    ]
+}

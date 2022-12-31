@@ -3,12 +3,12 @@ package LinkedList;
 
 public class Operations {
     Node head;
-    private int size;
+    int size;
 
-    Operations() {
-        this.size = 0;
+    // Operations() {
+    //     this.size = 0;
 
-    }
+    // }
 
     class Node {
         String data;
@@ -121,14 +121,14 @@ public class Operations {
         }
         Node currNode = head;
         while (currNode != null) {
-            System.out.print(currNode.data + "=>");
+            System.out.print(currNode.data + "->");
             currNode = currNode.next;
         }
         System.out.println("NULL");
     }
 
-    public int getSize() {
-        return size;
+    public void getSize() {
+        System.out.println(size);
     }
 
     public static void main(String args[]) {
@@ -140,6 +140,10 @@ public class Operations {
         list.printList();
         list.head = list.reverseRecursive(list.head);
         list.printList();
+        list.getSize();
+    }
 
+    public int size() {
+        return 0;
     }
 }
