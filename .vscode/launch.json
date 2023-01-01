@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StackUsingArrayList",
+            "request": "launch",
+            "mainClass": "Stack.StackUsingArrayList",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackUsingLL",
+            "request": "launch",
+            "mainClass": "Stack.StackUsingLL",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParenthesis",
+            "request": "launch",
+            "mainClass": "Stack.ValidParenthesis",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParentheses",
+            "request": "launch",
+            "mainClass": "Stack.ValidParentheses",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
             "name": "Launch detectLoop",
             "request": "launch",
             "mainClass": "LinkedList.detectLoop",
