@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PushAtBottomOfStack",
+            "request": "launch",
+            "mainClass": "Stack.PushAtBottomOfStack",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackUsingCollection",
+            "request": "launch",
+            "mainClass": "Stack.StackUsingCollection",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
             "name": "Launch StackUsingArrayList",
             "request": "launch",
             "mainClass": "Stack.StackUsingArrayList",

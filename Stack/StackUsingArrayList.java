@@ -13,7 +13,7 @@ public class StackUsingArrayList {
         // push
         public static void push(int data) {
             list.add(data);
-        }
+        }     
 
         // pop
         public static int pop() {
