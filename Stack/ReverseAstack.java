@@ -1,29 +1,36 @@
 package Stack;
-
 import java.util.*;
-
-public class PushAtBottomOfStack {
-    // Recursion
-    public static void pushAtBottom(int data, Stack<Integer> s) {
+public class ReverseAstack {
+    public static void PushAtBottom(int data, Stack<Integer> s) {
         if (s.isEmpty()) {
             s.push(data);
             return;
         }
         int top = s.pop();
-        pushAtBottom(data, s);
+        PushAtBottom(data, s);
         s.push(top);
-    }
+    } 
 
+    public static void reverse(Stack<Integer> s){
+        if (s.isEmpty()) {
+            return;
+        }
+        int top = s.pop();
+        reverse(s);
+        PushAtBottom(top,s);
+    }
+    
     public static void main(String args[]) {
         Stack<Integer> s = new Stack<>();
         s.push(1);
         s.push(2);
         s.push(3);
-        pushAtBottom(4, s);
 
+        reverse(s);
+        
         while (!s.isEmpty()) {
             System.out.println(s.peek());
             s.pop();
         }
-    }
+    }   
 }

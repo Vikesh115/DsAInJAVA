@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseAstack",
+            "request": "launch",
+            "mainClass": "Stack.ReverseAstack",
+            "projectName": "DsAInJAVA_67b0dc7f"
+        },
+        {
+            "type": "java",
             "name": "Launch PushAtBottomOfStack",
             "request": "launch",
             "mainClass": "Stack.PushAtBottomOfStack",
